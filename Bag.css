@@ -1,0 +1,283 @@
+body{
+    background-color: #f1f1f1;
+    background-image: url('C:/Users/Admin/Downloads/LOGIN4/Bag.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+.container {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 20%;
+    height: 30px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 2px;
+
+  }
+
+.box1 {
+    position: absolute;
+    top: 105px;
+    left: 150px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 750px;
+}
+
+
+.box2 {
+    position: absolute;
+    top: 390px;
+    left: 150px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 750px;
+}
+
+.box3 {
+    position: absolute;
+    top: 675px;
+    left: 150px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 750px;
+}
+
+.box4 {
+    position: absolute;
+    top: 960px;
+    left: 150px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 750px;
+}
+
+.box5 {
+    position: absolute;
+    top: 80px;
+    left: 1100px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 150px;
+    margin-left: -50px;
+    
+    
+}
+
+
+.image{
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: 10px;
+    
+}
+
+h1{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(255, 128, 0, 0.743);
+    color: rgb(255, 136, 0);
+}
+
+h2{
+    position: relative;
+    top: 10px;
+    font-size: 21px;
+    
+}
+
+p{ 
+    position: relative;
+    top: 0px;
+    font-size: 14px;
+
+}
+
+P{
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+    margin-right: 80px;
+
+}
+
+.remove-button {
+   position: relative;
+   top: 100px;
+   left: 340px;
+   font-weight: bold;
+   text-shadow: 2px 2px 4px rgba(255, 136, 0, 0.743);
+   color: rgb(255, 0, 0);
+   font-size: 14px;
+
+  }
+
+.price{
+    position: relative;
+    top: 0px;
+    
+    font-size: 17px;
+
+}
+
+.minus{
+    position: relative;
+    left: 338px;
+    top: 0px;
+    background-color:white ;
+    border: none;
+    color: rgb(255, 57, 57);
+    font-size: 27px;
+    
+
+}
+
+.quantity{
+    position: relative;
+    left: 350px;
+    top: 0px;
+    font-size: 18px;
+
+}
+
+.plus{
+    position: relative;
+    left: 362px;
+    top: 0px;
+    background-color: white ;
+    border: none;
+    color: rgb(91, 255, 91);
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+.content{
+    position: relative;
+    left: 20px;
+    top: -50px
+}
+
+.box-removed {
+    height: 0;
+    opacity: 0;
+    margin-bottom: 0;
+    transition: height 0.3s ease-out, opacity 0.3s ease-out;
+  }
+
+h5{
+    position: relative;
+    top: -45px;
+    font-size: 20px;
+    left: -5px;
+}
+
+h4{
+    position:relative;
+    top: -50px;
+    left: -5px;
+    font-size: 17px;
+}
+
+h3{
+    position:relative;
+    top: -55px;
+    left: -5px;
+    font-size: 17px;
+}
+
+h6{
+    position:relative;
+    top: -80px;
+    left: -5px;
+    font-size: 17px;
+}
+
+.p3-container{
+    position:relative;
+    top: -105px;
+    left: -5px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.horizontal-line{
+    position:relative;
+    left: -11px;
+    top: -105px;
+    color: rgb(0, 0, 0);
+    width: 170px;
+    font-weight: bold;
+
+}
+
+.p4-container{
+    position:relative;
+    top: 50px;
+    left: -175px;
+    color: red;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.horizontal-line1{
+    position:relative;
+    left: 517px;
+    top: 309px;
+    width: 170px;
+    font-weight: bold;
+    
+
+}
+
+.commander-button { 
+    position: absolute;
+    top: 350px;
+    left: 1089px;
+    background-color: black;
+    color: white;
+    padding:2px 10px 2px 10px ;
+    border: none;
+    border: radius 5px; ;
+    font-size: 16px;
+    margin-top: 1px;
+    
+    
+  }
+
+
+
+
+
+
+  

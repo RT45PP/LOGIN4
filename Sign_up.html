@@ -4,35 +4,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="SIGN IN.css">
+  <link rel="stylesheet" type="text/css" href="Sign_up.css">
 </head>
 <body>
   
   <div>
 
-    <div class="box1">
-      <div class="circle"></div>
-    </div>
-    <div class="box2">
-      <div class="circle1"></div>
-    </div>
     
     <div>
 
-      <h1>SIGN IN</h1>
+      <h1>INSCRIPTION</h1>
       
       <div class="box">
         <img class="logo" src="LOGOCESI.jpg" alt="Logo">
         <div class="content">
           <form>
-            <label for="email">Email:</label><br>
+            <label for="nom">Nom(s)</label><br>
+            <input type="nom" id="nom" name="nom" required><br><br>
+
+            <label for="prénom">Prénom(s)</label><br>
+            <input type="prénom" id="prénom" name="prénom" required><br><br>
+
+            <label for="localisation">Localisation(centre CESI actuel)</label><br>
+            <input type="localisation" id="localisation" name="localisation" required><br><br>
+
+            <label for="email">Email</label><br>
             <input type="email" id="email" name="email" required><br><br>
             
-            <label for="password">Password:</label><br>
+            <label for="password">Mot de passe</label><br>
             <input type="password" id="password" name="password" required><br><br>
             
-            <input type="submit" value="Login" class="signin-button">
-            <span class="create-account">You don't have an account? <a href="SIGN UP.html">Create it</a></span>
+            <input type="submit" value="S'inscrire" class="signin-button">
+            <span class="create-account">Vous avez déjà un compte? <a href="Sign_in.html">Connectez-vous</a></span>
           </form>
         </div>
       </div>
@@ -42,14 +45,11 @@
   </div>
 
   
-  <div class="box3">
-    <div class="circle2"></div>
-  </div>
-  <div class="box4">
-    <div class="circle3"></div>
-  </div>
-
-  <div class="footer-line"></div>
+  <footer class="footer">
+    <div class="footer-content">
+    </div>
+  </footer>
+  
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
