@@ -15,13 +15,13 @@ body {
     justify-content: space-between;
     width: 100%;
     max-width: 630px;
-    height: 425px;
+    height: 520px;
     margin: 0 auto;
     padding: 20px;
     background-color: rgb(233, 233, 233);
     border: 1px solid #b0afaf;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
@@ -30,11 +30,16 @@ body {
   
   .logo {
     width: 250px;
-    height: 300px;
+    height: 385px;
     margin-right: 20px;
     border-radius: 10px;
     border: 2px solid whitesmoke;
     margin-top: -5px;
+  }
+
+  .message-erreur {
+    color: red;
+    font-size: 11px;
   }
   
   .content {
@@ -89,7 +94,7 @@ body {
   h1 {
     text-align: center;
     position: absolute;
-    top: 45px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
@@ -97,6 +102,15 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
   }
+
+  .message-bulle {
+    
+    color: #f00303;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+  
   
   /* Styles pour les téléphones */
   @media (max-width: 600px) {
@@ -126,6 +140,9 @@ body {
       font-size: 11px
       
     }
+
+    
+    
 
     input[type="nom"],
     input[type="prénom"],

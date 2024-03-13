@@ -84,6 +84,18 @@ input[type="password"] {
   
 }
 
+.message-erreur {
+  color: red;
+  font-size: 11px;
+}
+
+.message-bulle {
+    
+  color: #f00303;
+  margin-top: 5px;
+  font-size: 11px;
+}
+
 
 
 h1 {
